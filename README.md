@@ -36,7 +36,7 @@ Após as dependências serem instaladas, você pode rodar o servidor de desenvol
 bash
 Copiar
 npm run dev
-O projeto estará disponível em http://localhost:3000.
+O projeto estará disponível em http://localhost:5173.
 
 ⚙️ Estrutura do Projeto
 Aqui está uma visão geral da estrutura de arquivos:

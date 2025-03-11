@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Mail, Download } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -50,7 +50,7 @@ const NavLinks = () => (
       { en: 'Home', pt: 'Início' },
       { en: 'About', pt: 'Sobre' },
       { en: 'Projects', pt: 'Projetos' },
-      { en: 'Contact', pt: 'Contato' }
+      { en: 'Contact', pt: 'Contato' },
     ].map((item) => (
       <a
         key={item.en}
@@ -86,6 +86,15 @@ const SocialLinks = () => (
       className="text-gray-600 hover:text-gray-900 transition-colors"
     >
       <Mail size={20} />
+    </a>
+    {/* Ícone de Baixar Currículo com texto explicativo */}
+    <a
+      href="/src/public/CurriculoDanielVieiradaSilva.pdf" // Substitua com o caminho correto para o seu currículo
+      download="CurriculoDanielVieiradaSilva.pdf"
+      className="text-gray-600 hover:text-gray-900 transition-colors flex items-center space-x-2"
+    >
+      <Download size={20} />
+      <span>Baixar Currículo</span> {/* Texto explicativo */}
     </a>
   </div>
 );

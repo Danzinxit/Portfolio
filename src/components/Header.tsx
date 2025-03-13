@@ -89,12 +89,12 @@ const SocialLinks = () => (
     </a>
     {/* Ícone de Baixar Currículo com texto explicativo */}
     <a
-      href="/src/public/CurriculoDanielVieiradaSilva.pdf" // Substitua com o caminho correto para o seu currículo
+      href="/src/public/CurriculoDanielVieiradaSilva.pdf"
       download="CurriculoDanielVieiradaSilva.pdf"
       className="text-gray-600 hover:text-gray-900 transition-colors flex items-center space-x-2"
     >
       <Download size={20} />
-      <span>Baixar Currículo</span> {/* Texto explicativo */}
+      <span>Baixar Currículo</span>
     </a>
   </div>
 );

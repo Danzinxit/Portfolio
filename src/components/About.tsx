@@ -30,8 +30,8 @@ const About = () => {
               />
               <Skill
                 icon={<Palette className="text-blue-600" />}
-                title="Frontend"
-                description="HTML5, CSS3, Tailwind CSS, Material UI"
+                title="FrontEnd"
+                description="HTML5, Tailwind CSS, Material UI"
               />
               <Skill
                 icon={<Globe className="text-blue-600" />}
